@@ -1,0 +1,42 @@
+# folders
+checkpoint
+test_result
+apex
+data
+fastText
+pretrain
+fewrel
+
+# files
+*.pyc
+*.swp
+*.tar
+*.sh
+sbatch*
+*.ipynb
+
+# virtualenv
+.virtual
+
+# result
+result*
+
+# test data
+data/test_wiki.json
+data/test_pubmed.json
+data/train_wiki+pubmed.json
+data/pubmed.json
+FewRel-master.rar
+pretrain.tar
+glove.txt
+
+# tmp file
+pretrain.tar
+
+# mac cache
+.DS_Store
+
+# editor cache
+.idea
+.vscode
+.venv
